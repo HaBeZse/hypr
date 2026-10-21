@@ -1,0 +1,26 @@
+/*
+ * clipboard menu. Imported by launchers/shared/colors.rasi as:
+ *
+ *     @import "~/.config/hypr-theme/palette.rasi"
+ */
+* {
+    background:      rgba(0, 0, 0, 0.74);
+    background-alt:  rgba(18, 18, 18, 0.97);
+    surface:         #1E1E1EFF;
+    surface-alt:     #2A2A2AFF;
+
+    foreground:      #FFFFFFFF;
+    foreground-alt:  #CFCFCFFF;
+    muted:           #9A9A9AFF;
+
+    selected:        #E0E0E0FF;
+    active:          #FFFFFFCC;
+    urgent:          #B0B0B0FF;
+    textcolor:       #000000FF;
+
+    /* Borders — accent-light at three strengths. rofi has no alpha-blend
+       function, so the alpha is baked in rather than derived from @selected. */
+    border-strong:   #E0E0E03D;
+    border-mid:      #E0E0E02B;
+    border-faint:    #E0E0E014;
+}
